@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  gap: 20px;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+/* contact section */
+.contact {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(177, 199, 177);
+  border-radius: 10px;
+}
+
+.btn-button {
+  background-color: cornflowerblue;
+  color: rgb(118, 118, 151);
+  margin: 5px;
+  padding: 2px;
+  width: 100px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.location {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  /* align-content: end; */
+  background-color: rgb(51, 51, 86);
+  color: white;
+  border-radius: 10px;
+}
+/* services section */
+.services {
+  list-style-position: inside;
+  background-color: rgb(99, 115, 145);
+  color: white;
+}
+/* home page */
+.box-container {
+  background-color: rgb(41, 59, 59);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  font-size: larger;
+  color: white;
+}
